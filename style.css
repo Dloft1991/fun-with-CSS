@@ -35,7 +35,17 @@
     width: 150px;
     height: 50px;
     background-color: pink;
+    -webkit-animation-name: forearm;
+    -webkit-animation-duration: 5s;
+    animation-name: forearm;
+    animation-duration: 5s;
+    
+
 }
+@-webkit-keyframes forearm {
+    from {background-color: pink;}
+    to {background-color: yellow;}
+  }
 .robot-leftForearm{
     position: absolute;
     margin-left: 950px;
