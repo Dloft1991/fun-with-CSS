@@ -1,63 +1,67 @@
-.box-one{
+body{
+    background-color: black;
+}
+.spacer {
     position: relative;
-    margin-top: 20px;
-    width: 100px;
+    margin-top: 50px;
+    height: 200px;
+}
+.box-one{
+    position: absolute;
+    width: 200px;
     height: 100px;
-    color: white;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-top: 30px;
     text-align: center;
-    background-color: red;
+    background-color: white;
     animation-name: move;
-    animation-duration: 5s;
+    animation-duration: 8s;
 }
 .box-two{
-    position: relative;
-    margin-top: 20px;
+    position: absolute;
     width: 100px;
     height: 100px;
+    margin-top: 30px;
     color: white;
-    text-align: center;
-    background-color: yellow;
-    animation-name: shift;
-    animation-duration: 6s;
+    border-radius: 50px;
+    background-color: white;
+    animation-name: move;
+    animation-duration: 8s;
 }
 .box-three{
-    position: relative;
-    margin-top: 20px;
+    position: absolute;
     width: 100px;
     height: 100px;
+    margin-top: 30px;
     color: white;
-    text-align: center;
-    background-color: green;
-    animation-name: go;
-    animation-duration: 7s;
+    margin-left: 150px;
+    border-radius: 50px;
+    background-color: white;
+    animation-name: move;
+    animation-duration: 8s;
 }
 .box-four{
-    position: relative;
-    margin-top: 20px;
+    position: absolute;
     width: 100px;
-    height: 100px;
+    height: 80px;
     color: white;
-    text-align: center;
-    background-color: blue;
-    animation-name: start;
+    margin-left: 90px;
+    border-radius: 80px;
+    background-color: white;
+    animation-name: move;
     animation-duration: 8s;
 }
 
 
 @keyframes move {
-    0% {background-color: red; left: 0px; top: 0px;}
-    25% {background-color: yellow; left: 200px; top: 0px;}
-    50% {background-color: green; left: 500px; top: 0px;}
-    75% {background-color: blue; left: 1000px; top: 0px;}
-    100% {background-color: red; left: 0px; top: 0px;}
+    0% { left: 0px; top: 0px;}
+    /* 25% { left: 200px; top: 0px;}
+    50% { left: 500px; top: 0px;}
+    75% { left: 1000px; top: 0px;} */
+    100% { left: 1000px; top: 0px;}
 }
-@keyframes shift {
-    0% {background-color: yellow; left: 0px; top: 0px;}
-    25% {background-color: green; left: 200px; top: 0px;}
-    50% {background-color: blue; left: 500px; top: 0px;}
-    75% {background-color: red; left: 1000px; top: 0px;}
-    100% {background-color: yellow; left: 0px; top: 0px;}
-}
+
 @keyframes go {
     0% {background-color: green; left: 0px; top: 0px;}
     25% {background-color: blue; left: 200px; top: 0px;}
@@ -68,7 +72,8 @@
 @keyframes start {
     0% {background-color: blue; left: 0px; top: 0px;}
     25% {background-color: red; left: 200px; top: 0px;}
-    50% {background-color: yellow; left: 500px; top: 0px;}
+    50% {background-color: yellow; border-radius: 90px; left: 500px; top: 0px;}
     75% {background-color: green; left: 1000px; top: 0px;}
     100% {background-color: blue; left: 0px; top: 0px;}
 }
+

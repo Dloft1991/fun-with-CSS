@@ -1,0 +1,19 @@
+.player-guy {
+    position: relative;
+    height: 100px;
+    width: 50px;
+    margin-bottom: -500px;
+    background-color: red;
+    animation-name: run;
+    animation-duration: 7s;
+}
+
+@keyframes run {
+    0% {left: 0px; top: 0px;}
+    20% { left: 450px; top: 0px;}
+    40% { left: 500px; top: -50px;}
+    60% { left: 550px; top: -100px;}
+    80% { left: 600px; top: -150px;}
+    90% { left: 1000px; top: 0px;}
+    100% { left: 0px; top: 0px; }
+}
