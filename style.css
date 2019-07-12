@@ -62,18 +62,3 @@ body{
     100% { left: 1000px; top: 0px;}
 }
 
-@keyframes go {
-    0% {background-color: green; left: 0px; top: 0px;}
-    25% {background-color: blue; left: 200px; top: 0px;}
-    50% {background-color: red; left: 500px; top: 0px;}
-    75% {background-color: yellow; left: 1000px; top: 0px;}
-    100% {background-color: green; left: 0px; top: 0px;}
-}
-@keyframes start {
-    0% {background-color: blue; left: 0px; top: 0px;}
-    25% {background-color: red; left: 200px; top: 0px;}
-    50% {background-color: yellow; border-radius: 90px; left: 500px; top: 0px;}
-    75% {background-color: green; left: 1000px; top: 0px;}
-    100% {background-color: blue; left: 0px; top: 0px;}
-}
-
