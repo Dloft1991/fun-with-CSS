@@ -1,6 +1,74 @@
 .box-one{
+    position: relative;
+    margin-top: 20px;
     width: 100px;
     height: 100px;
+    color: white;
+    text-align: center;
     background-color: red;
+    animation-name: move;
+    animation-duration: 5s;
+}
+.box-two{
+    position: relative;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: yellow;
+    animation-name: shift;
+    animation-duration: 6s;
+}
+.box-three{
+    position: relative;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: green;
+    animation-name: go;
+    animation-duration: 7s;
+}
+.box-four{
+    position: relative;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    animation-name: start;
+    animation-duration: 8s;
 }
 
+
+@keyframes move {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 200px; top: 0px;}
+    50% {background-color: green; left: 500px; top: 0px;}
+    75% {background-color: blue; left: 1000px; top: 0px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+}
+@keyframes shift {
+    0% {background-color: yellow; left: 0px; top: 0px;}
+    25% {background-color: green; left: 200px; top: 0px;}
+    50% {background-color: blue; left: 500px; top: 0px;}
+    75% {background-color: red; left: 1000px; top: 0px;}
+    100% {background-color: yellow; left: 0px; top: 0px;}
+}
+@keyframes go {
+    0% {background-color: green; left: 0px; top: 0px;}
+    25% {background-color: blue; left: 200px; top: 0px;}
+    50% {background-color: red; left: 500px; top: 0px;}
+    75% {background-color: yellow; left: 1000px; top: 0px;}
+    100% {background-color: green; left: 0px; top: 0px;}
+}
+@keyframes start {
+    0% {background-color: blue; left: 0px; top: 0px;}
+    25% {background-color: red; left: 200px; top: 0px;}
+    50% {background-color: yellow; left: 500px; top: 0px;}
+    75% {background-color: green; left: 1000px; top: 0px;}
+    100% {background-color: blue; left: 0px; top: 0px;}
+}
