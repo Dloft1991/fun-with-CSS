@@ -2,12 +2,52 @@
     position: relative;
     height: 100px;
     width: 50px;
-    margin-bottom: -500px;
-    background-color: red;
+    margin-bottom: -390px;
     animation-name: run;
     animation-duration: 7s;
 }
-
+.head {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: tan;
+}
+.body {
+    height: 100px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: red;
+}
+.arm-left {
+    position: absolute;
+    width: 25px;
+    height: 70px;
+    background-color: tan;
+    margin-left: -10px;
+    margin-top: -75px;
+}
+.arm-right {
+    position: absolute;
+    width: 25px;
+    height: 70px;
+    background-color: tan;
+    margin-left: 70px;
+    margin-top: -75px;
+}
+.legs {
+    position: absolute;
+    width: 60px;
+    height: 70px;
+    background-color: tan;
+    margin-left: 10px;
+}
+.leg-divide {
+    position: relative;
+    width: 5px;
+    height: 70px;
+    background-color: black;
+    margin-left: 37px;
+}
 @keyframes run {
     0% {left: 0px; top: 0px;}
     20% { left: 450px; top: 0px;}
