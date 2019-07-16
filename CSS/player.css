@@ -48,6 +48,46 @@
     background-color: black;
     margin-left: 37px;
 }
+.eye-left {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-left: 28px;
+    margin-top: -35px;
+}
+.retna-left {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    margin-left: 35px;
+    margin-top: -33px;
+}
+.eye-right {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-left: 45px;
+    margin-top: -35px;
+}
+.retna-right {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: -33px;
+}
+.mouth {
+    position: absolute;
+    width: 32px;
+    height: 7px;
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 24px;
+}
 @keyframes run {
     0% {left: 0px; top: 0px;}
     20% { left: 450px; top: 0px;}
